@@ -162,3 +162,5 @@ WHERE (MONTH(reparation.dato) < 4 OR MONTH(reparation.dato) > 9)
         AND mekaniker.navn != 'Poul' 
         AND reparation.mekaniker_id = mekaniker.mekaniker_id
 GROUP BY mekaniker.navn;
+
+
